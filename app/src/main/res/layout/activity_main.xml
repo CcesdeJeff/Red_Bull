@@ -40,6 +40,7 @@
         android:layout_marginBottom="78dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/red_bull_kart_fight_2021_logo" />
 

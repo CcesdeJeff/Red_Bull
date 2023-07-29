@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B162F"
+    tools:context=".Agendamiento">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="101dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/red_bull_kart_fight_2021_logo"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <TextView
+        android:id="@+id/texTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="Bienvenido"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/hungary_sectors"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/fondoCalendar"
+        android:layout_width="431dp"
+        android:layout_height="288dp"
+        android:backgroundTint="#FACD34"
+        android:text=""
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="351dp"
+        android:layout_height="286dp"
+        android:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/btnAgendar"
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#CC1C4A"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="Confirmar"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="115dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/logo_f1"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
